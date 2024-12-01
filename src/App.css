@@ -1,0 +1,54 @@
+.top-content h1 {
+  text-align: center;
+  color: rgb(195, 182, 182);
+}
+
+body {
+  background-color: #000000;
+  color: #fff;
+}
+
+.top-content h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.input-usd input {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 3px solid yellow;
+  font-size: larger;
+}
+
+.input-usd h2 {
+  color: #fff;
+}
+
+.input-usd input:focus {
+  outline: none;
+  border: 5px solid yellow;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eur-content {
+  border: 5px solid #fff;
+  padding: 10px;
+  width: 40%;
+}
+
+.convert-button {
+  padding: 5px 10px;
+  background-color: #000000;
+  color: #fff;
+  font-family: "Poppins";
+  border: 2px solid #fff;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 40px;
+}

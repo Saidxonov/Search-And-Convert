@@ -1,0 +1,66 @@
+.books {
+  margin-top: 100px;
+}
+
+.books-input {
+  width: 100%;
+  height: 50px;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  padding-left: 5px;
+  background-color: #000;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: larger;
+}
+
+.books-input:focus {
+  outline: none;
+}
+
+.books-input::placeholder {
+  font-family: "Poppins";
+  color: #fff;
+}
+
+.book {
+  width: 70%;
+  background-color: #fff;
+  border-radius: 20px;
+  color: #000;
+}
+
+.shown-books {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.books-img img {
+  width: 100%;
+}
+
+.books-content {
+  padding-left: 10px;
+}
+
+.search-book {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #000;
+  border: 3px solid #fff;
+  color: #fff;
+  font-family: "Poppins";
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.search-book:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.3s;
+}
