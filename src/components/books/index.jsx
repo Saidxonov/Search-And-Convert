@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./index.css";
 import { backend } from "./axios";
-import defaultImg from "../img/book-img.jpg";
+import defaultImg from "/public/book-Img.jpg";
 
 function Books() {
   const [bookInput, setBookInput] = useState("");
